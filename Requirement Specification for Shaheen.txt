@@ -1,0 +1,59 @@
+/***************************************************************************************************
+ * @file          : Requirement Specification for Shaheen
+ * @description   : This document describes requirements for Shaheen project.
+ ***************************************************************************************************
+ * @history     
+ * @rev           | @comment 
+ * 151114-a       | + initial issue
+ *           
+ ***************************************************************************************************
+ */
+Introduction:
+=============
+> Shaheen project includes a Version Control System project and a project management system that can 
+  be linked with this VCS.
+
+
+VCS Basic Feature:
+------------------
+> VCS should be a complete version control system with basic features of creating, editing and 
+  deleting repositories.
+> each repository will support local as well as server repositories.
+> multiple heads won't be allowed on same branches, if a multiple head is expected, it is better 
+  either to resolve by merge or by creating a new branch
+
+VCS New Features:
+-----------------
+> product will allow using Google drive for setting up a shared repository, this option will be 
+  responsible for helping user for setting up private repositories easily.
+> VCS will allow file share option instead of sub repository feature. 
+> VCS will allow file view, file get, file checkout, file commit, and file publishing.
+> VCS file checkout will ask for destination and if a file of same name already exists there then 
+  option will be available whether to overwrite it or just start consider it as updated revision of 
+  checked out file.
+> user does not need to have anything on his hard drive for a new commits and publications. he can 
+  simply checkout a single file, edit it, commit and publish.
+> VCS will allow file as well as repository labels to indicate a specific state of repository or 
+  file.
+> multiple files under same label will mean a same state
+> using a label we can get repository, a file or set of files from a their given revisions.
+
+Interfaces:
+-----------
+> product should provide friendly user interface, this interface may be web based or eclipse based 
+  or any other native windowed application.   
+> product version control system needs some interface to connect to external module of project 
+  management system.
+  
+Utilities:
+----------
+> VCS will need a view tool, this can be external like notepad,
+> VCS will need a edit tool, this can be external like notepad,
+> VCS will need a difference tool, this can be developed internally, it should allow editing of 
+  files under difference at runtime.
+  
+Development:
+------------
+> All tools used for development of this project will be free-ware, no pirated software will be used 
+  during any stage of development of this product.
+  
