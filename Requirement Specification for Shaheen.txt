@@ -5,6 +5,7 @@
  * @history     
  * @rev           | @comment 
  * 151114-a       | + initial issue
+ * 221114-a       | + added new requirements
  *           
  ***************************************************************************************************
  */
@@ -21,7 +22,8 @@ VCS Basic Feature:
 > each repository will support local as well as server repositories.
 > multiple heads won't be allowed on same branches, if a multiple head is expected, it is better 
   either to resolve by merge or by creating a new branch
-
+> VCS should implement merge-before-commit, decentralized, Change-set based design. 
+  
 VCS New Features:
 -----------------
 > product will allow using Google drive for setting up a shared repository, this option will be 
@@ -57,3 +59,20 @@ Development:
 > All tools used for development of this project will be free-ware, no pirated software will be used 
   during any stage of development of this product.
   
+====================================================================================================
+SCCM New Features:
+------------------
+> Review trackers are linked with VCS revisions.
+> Review trackers allow multiple comments on same file view under review.
+> Trackers for bugs and project activities, links with VCS revisions
+
+====================================================================================================
+Open Issues:
+------------
+> diff and merge of binary [and non-ASCII] files in VCS repository.
+
+====================================================================================================
+References:
+-----------
+> https://stackoverflow.com/questions/27076054/how-to-design-a-simple-sccm
+> http://www.catb.org/~esr/writings/version-control/version-control.html
