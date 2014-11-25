@@ -1,0 +1,19 @@
+/***************************************************************************************************
+ * @file          : Investigation for Shaheen
+ * @description   : This document describes Investigation for Shaheen project.
+ ***************************************************************************************************
+ * @history     
+ * @rev           | @comment 
+ * 251114-a       | + initial issue
+ *           
+ ***************************************************************************************************
+ */
+
+> Investigating on VCS designs
+> Investigating on kdiff3 tool and its design.
+
+====================================================================================================
+References:
+-----------
+> https://stackoverflow.com/questions/27076054/how-to-design-a-simple-sccm
+> http://www.catb.org/~esr/writings/version-control/version-control.html

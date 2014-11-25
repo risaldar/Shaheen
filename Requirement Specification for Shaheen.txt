@@ -71,8 +71,3 @@ Open Issues:
 ------------
 > diff and merge of binary [and non-ASCII] files in VCS repository.
 
-====================================================================================================
-References:
------------
-> https://stackoverflow.com/questions/27076054/how-to-design-a-simple-sccm
-> http://www.catb.org/~esr/writings/version-control/version-control.html
